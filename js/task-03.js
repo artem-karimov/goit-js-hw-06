@@ -21,7 +21,7 @@ const displayImages = () => {
   for (const image of images) {
     const item = `
       <li>
-        <img src=${image.url} src=${image.alt} width="1260" height="750">
+        <img src="${image.url}" src="${image.alt}" width="1260" height="750">
       </li>
     `;
     items.push(item);
